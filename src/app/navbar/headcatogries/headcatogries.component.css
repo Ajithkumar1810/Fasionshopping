@@ -1,0 +1,17 @@
+label{
+    padding-left: 2vw;
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+}
+.dropdown{
+    border-style: none;
+    padding-left: 2vw;
+}
+button{
+    border-style: none;
+    margin-left: 2vw;
+    background-color: white;
+    color:rgb(163, 25, 25);
+    font-weight: bolder;
+}

@@ -1,0 +1,37 @@
+<div class="container">
+    <div class="row">
+       <div class="pictures">
+        <a href="#"
+        class="list-group-item "
+        *ngFor="let p_info of productinfo | paginate:{itemsPerPage:12,currentPage:page,totalItems:totalLength}">
+        <span class="pull-top">
+            <img [src]="p_info.image"
+            alt="{{p_info.name}}"
+            class="img-rounded" alt="Cinque Terre"
+            style="max-height:300px">
+        </span>
+        <hr>
+        <div class="pull-bottom ">
+            <h4 class="list-group-item-heading">{{p_info.name}}</h4>
+            <p class="list-group-item-text" style="text-decoration: line-through;">{{p_info.amount}}</p>
+            
+            <p class="list-group-item-text">{{p_info.discount}} <button class="btn btn-warning pull-right">Add to Cart</button></p>
+            
+        
+        </div>
+       
+        
+    </a>
+    
+       </div>
+        
+    </div>
+    <div class="row text-center">
+        <div class="col-xs-12">
+            <ul class="pagination">
+    <pagination-controls (pageChange)="page=$event"></pagination-controls>
+                
+              </ul>
+         </div>
+    </div>
+</div>

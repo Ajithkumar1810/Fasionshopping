@@ -1,0 +1,28 @@
+input{
+    margin-top: 2vw;
+    font-size: 1.3vw;
+    border-radius: 1em;
+}
+.col-xs-1{
+    margin-top: 2vw;
+    
+}
+.dropdown{
+    margin-top: 1.5vw;
+    
+}
+#icons{
+  text-align: end; 
+ 
+}
+p{
+    font-size: 2vw;
+    font-style: bolder;
+    margin-top: 1.5vw;
+}
+span{
+    cursor: pointer;
+}
+.col-xs-2{
+margin-left: 4vw;
+}
