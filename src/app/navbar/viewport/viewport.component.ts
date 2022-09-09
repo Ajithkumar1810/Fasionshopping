@@ -6,18 +6,19 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./viewport.component.css']
 })
 export class ViewportComponent implements OnInit {
- public menuoption=!false;
+ public menuoption=false;
   constructor() { }
 
   ngOnInit(): void {
   }
   MenuBarSelected(){
-    if(this.menuoption===true){
-      this.menuoption=false;
-    }
-    else{
-      this.menuoption=true;
-    }
+    // if(this.menuoption===true){
+    //   this.menuoption=false;
+    // }
+    // else{
+    //   this.menuoption=true;
+    // }
+    this.menuoption=!this.menuoption;
     
   }
   
