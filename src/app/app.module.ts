@@ -9,6 +9,7 @@ import { MenuComponent } from './navbar/viewport/menu/menu.component';
 import { ProductviewComponent } from './navbar/viewport/productview/productview.component';
 import { NgxPaginationModule } from 'ngx-pagination';
 import { HttpClientModule } from  '@angular/common/http';
+import { DropDownListModule } from '@syncfusion/ej2-angular-dropdowns';
 
 @NgModule({
   declarations: [
@@ -25,7 +26,8 @@ import { HttpClientModule } from  '@angular/common/http';
   imports: [
     BrowserModule,
     NgxPaginationModule,
-    HttpClientModule
+    HttpClientModule,
+   DropDownListModule
     
   ],
   providers: [],

@@ -1,3 +1,31 @@
-.container{
-    background-color: bisque;
+/* .container{
+    background-color: rgb(168, 211, 237);
+} */
+#catogories{
+    display: flex;
+    flex-direction: column;
+    
 }
+a{
+    color: rgb(18, 103, 120);
+    text-decoration: none;
+    cursor: pointer;
+   
+}
+#colors button{
+    
+    height: 4vh;
+    width: 2vw;
+    border-radius: 50%;
+    border-style: groove;
+    border-color: black;
+    margin-left: .8rem;
+ 
+ }
+ .multi-range-field{
+    width: 13vw;
+ }
+ .display_value{
+    display: flex;
+    
+ }

@@ -1,7 +1,9 @@
-/* .container{
-    background-color: aliceblue;
+.container{
+    background-color: rgb(211, 220, 226);
+    max-width:100%;
     
-} */
+    
+}
 .pictures{
     display: flex;
     flex-direction: row;
@@ -11,4 +13,7 @@
 .img-rounded{
     width:16vw;
     height: 45vh;
+}
+.row{
+    margin-left: 2vw;
 }

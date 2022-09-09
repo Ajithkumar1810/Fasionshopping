@@ -18,6 +18,7 @@
     "@angular/platform-browser": "^14.1.0",
     "@angular/platform-browser-dynamic": "^14.1.0",
     "@angular/router": "^14.1.0",
+    "@syncfusion/ej2-angular-dropdowns": "^20.2.48",
     "bootstrap": "^3.4.1",
     "ngx-pagination": "^6.0.2",
     "rxjs": "~7.5.0",

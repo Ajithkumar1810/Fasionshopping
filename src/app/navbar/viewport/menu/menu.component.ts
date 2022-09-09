@@ -6,6 +6,9 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./menu.component.css']
 })
 export class MenuComponent implements OnInit {
+  public slidermin=0;
+  public slidermax=100;
+  public slidercurrent=50;
 
   constructor() { }
 
