@@ -6,6 +6,12 @@
     flex-direction: column;
     
 }
+#catogories a:hover h4{
+    font-size: 1.5vw;
+    background-color: beige;
+    
+}
+
 a{
     color: rgb(18, 103, 120);
     text-decoration: none;
@@ -27,5 +33,17 @@ a{
  }
  .display_value{
     display: flex;
+
+ }
+ #colors button:hover{
+    height: 4vh;
+    width: 2vw;
+    border-radius: 50%;
+    border-style:solid;
+    border-color: rgb(249, 252, 249);
+    border-width: .2vw;
+    
+ }
+ .filter{
     
  }

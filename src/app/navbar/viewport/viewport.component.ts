@@ -6,7 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./viewport.component.css']
 })
 export class ViewportComponent implements OnInit {
- public menuoption=false;
+ public menuoption=!false;
   constructor() { }
 
   ngOnInit(): void {

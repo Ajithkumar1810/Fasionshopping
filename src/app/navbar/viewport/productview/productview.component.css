@@ -17,3 +17,9 @@
 .row{
     margin-left: 2vw;
 }
+a:hover{
+    border-style:inset;
+    border-color: rgb(173, 126, 68);
+    border-width: .4vw;
+    width: 18.5vw;
+}

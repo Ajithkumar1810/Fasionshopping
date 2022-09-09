@@ -1,13 +1,13 @@
 <div class="container-fluid">
     <div class="row">
         <div class="col-xs-1" *ngIf="menuoption!==true">
-            <button id="menu" class="btn btn-secondary pull-right" 
+            <button id="menu" class="btn btn-info pull-right" 
             (click)="MenuBarSelected()"><span id="menubar" 
              class="glyphicon glyphicon-align-justify" ></span></button>
             <!-- <p>{{menuoption}}</p> -->
         </div>
         <div class="col-xs-2" *ngIf="menuoption===true">
-            <button id="menu" class="btn btn-secondary pull-right"
+            <button id="menu" class="btn btn-info pull-right"
             (click)="MenuBarSelected()"><span id="menubar" 
              class="glyphicon glyphicon-align-justify" ></span></button>
             <app-menu></app-menu>
